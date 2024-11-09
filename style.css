@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9FAFB;
+}
+
+body {
+    padding-top: 70px;
+    padding-left: 270px;
+    padding-right: 270px;
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 34px 0;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.subheading {
+    color: #6C727F;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.card-item {
+    display: inline-block;
+    margin: 75px auto 0;
+    box-shadow: 8px 8px 20px 0 #E5E7EB, -8px 8px 20px 0 #E5E7EB;;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+form input[type="email"] {
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #F9FAFB;
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin: 26px auto;
+    width: 500px;
+    heigth: 60px;
+    padding: 20px 0;
+    border-radius: 10px;
+    background-color: #284BCE;
+    color: #F9FAFB;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.card-footer {
+    color: #6C727F;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
